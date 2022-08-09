@@ -16,7 +16,7 @@ User and developer [documentation of mapology](https://codes.dilettant.life/docs
 
 ## Bug Tracker
 
-Feature requests and bug reports are bested entered in the [todos of mapology](https://todo.sr.ht/~sthagen/mapology).
+Feature requests and bug reports are best entered in the [todos of mapology](https://todo.sr.ht/~sthagen/mapology).
 
 ## Primary Source repository
 
