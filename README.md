@@ -4,6 +4,8 @@ Simple python filters generating leaflet driven apps.
 
 [License: MIT](https://git.sr.ht/~sthagen/mapology/tree/default/item/LICENSE)
 
+Third party dependencies are documented in the folder [third-party](third-party/README.md).
+
 [![version](https://img.shields.io/pypi/v/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
 [![downloads](https://pepy.tech/badge/mapology/month)](https://pepy.tech/project/mapology)
 [![wheel](https://img.shields.io/pypi/wheel/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
