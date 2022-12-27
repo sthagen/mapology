@@ -1,7 +1,6 @@
 .DEFAULT_GOAL := all
 black = black -S -l 120 --target-version py310 mapology test
-flake8 = flake8 mapology test
-isort = isort mapology test
+lint = ruff mapology test
 pytest = pytest --asyncio-mode=strict --cov=mapology --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
 types = mypy mapology
 
@@ -17,14 +16,13 @@ install-all: install
 
 .PHONY: isort
 format:
-	$(isort)
+	$(lint) --fix
 	$(black)
 
 .PHONY: lint
 lint:
 	python setup.py check -ms
-	$(flake8)
-	$(isort) --check-only --df
+	$(lint)
 	$(black) --check --diff
 
 .PHONY: types
@@ -42,6 +40,11 @@ testcov: test
 
 .PHONY: all
 all: lint types testcov
+
+.PHONY: sbom
+sbom:
+	@./gen-sbom
+	@cog -I. -P -c -r --check --markers="[[fill ]]] [[[end]]]" -p "from gen_sbom import *;from gen_licenses import *" docs/third-party/README.md
 
 .PHONY: version
 version:
