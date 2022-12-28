@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([cdb0945f ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:cdb0945f9a473e966fdd660ea1d6ff229224fb6848747ced616b083300594db0")).
-<!--[[[end]]] (checksum: 4c40f6690238d1e4afba2c29207011e1)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/mapology/blob/default/sbom.json) with SHA256 checksum ([23481296 ...](https://git.sr.ht/~sthagen/mapology/blob/default/sbom.json.sha256 "sha256:234812965d205fa00c6a194a855e168dfb9461b2ceddc98f53bd610f91dd0ab1")).
+<!--[[[end]]] (checksum: db8bb9b6b6b3b208464a5df504bae4f0)-->
 
 None.
 
