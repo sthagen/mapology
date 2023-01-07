@@ -15,15 +15,20 @@ install:
 install-all: install
 	pip install -r test/requirements-dev.txt
 
-.PHONY: isort
+.PHONY: format
 format:
 	$(lint) --fix
 	$(black)
 
+.PHONY: init
+init:
+	pip install -r test/requirements.txt
+	pip install -r test/requirements-dev.txt
+
 .PHONY: lint
 lint:
 	validate-pyproject pyproject.toml
-	$(lint)
+	$(lint) --diff
 	$(black) --check --diff
 
 .PHONY: types
@@ -31,7 +36,7 @@ types:
 	$(types)
 
 .PHONY: test
-test:
+test: clean
 	$(pytest)
 
 .PHONY: testcov
@@ -49,7 +54,7 @@ sbom:
 
 .PHONY: version
 version:
-	@cog -I. -P -c -r --check --markers="[[fill ]]] [[[end]]]" -p "from gen_version import *" pyproject.toml $(package)/__init__.py
+	@cog -I. -P -c -r --check --markers="[[fill ]]] [[[end]]]" -p "from gen_version import *" $(package)/__init__.py
 
 .PHONY: secure
 secure:
