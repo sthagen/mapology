@@ -84,7 +84,6 @@ def main(argv: Union[List[str], None] = None) -> int:
     many = num_prefixes > 10  # tenfold magic
     numbers = ('latitude', 'longitude', 'elevation')
     for current, prefix in enumerate(sorted(prefixes), start=1):
-
         with open(store_index[prefix], 'rt', encoding=ENCODING) as handle:
             prefix_store = json.load(handle)
 
