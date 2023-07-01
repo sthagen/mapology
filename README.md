@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/third-p
 [![wheel](https://img.shields.io/pypi/wheel/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/mapology.svg?style=flat)](https://git.sr.ht/~sthagen/mapology/log)
 
 ## Documentation
 
