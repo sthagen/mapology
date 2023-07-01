@@ -1,8 +1,16 @@
-"""The mapology control data and name dispatch."""
+"""Simple python filters generating leaflet driven apps."""
 import logging
 import os
 import pathlib
 from typing import List, no_type_check
+
+APP_ALIAS = str(pathlib.Path(__file__).parent.name)
+APP_ENV = APP_ALIAS.upper()
+APP_NAME = locals()['__doc__']
+DEBUG = bool(os.getenv(f'{APP_ENV}_DEBUG', ''))
+ENCODING = 'utf-8'
+ENCODING_ERRORS_POLICY = 'ignore'
+DEFAULT_CONFIG_NAME = f'.{APP_ALIAS}.json'
 
 ENCODING = 'utf-8'
 
@@ -14,10 +22,6 @@ FOOTER_HTML = os.getenv('GEO_FOOTER_HTML', ' ')
 FS_PREFIX_PATH = os.getenv('GEO_PREFIX_PATH', 'prefix')
 FS_DB_ROOT_PATH = os.getenv('GEO_DB_ROOT_PATH', 'db')
 
-APP_ALIAS = 'mapology'
-APP_ENV = APP_ALIAS.upper()
-DEBUG_ENV_VAR = f'{APP_ENV}_DEBUG'
-DEBUG = bool(os.getenv(DEBUG_ENV_VAR, ''))
 log = logging.getLogger()  # Temporary refactoring: module level logger
 LOG_FOLDER = pathlib.Path('logs')
 LOG_FILE = f'{APP_ALIAS}.log'
