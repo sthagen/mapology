@@ -7,7 +7,7 @@ Simple python filters generating leaflet driven apps.
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
-[![downloads](https://pepy.tech/badge/mapology/month)](https://pepy.tech/project/mapology)
+[![downloads](https://static.pepy.tech/badge/mapology/month)](https://pepy.tech/project/mapology)
 [![wheel](https://img.shields.io/pypi/wheel/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
