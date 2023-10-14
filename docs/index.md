@@ -2,7 +2,9 @@
 
 Simple python filters generating leaflet driven apps.
 
-[License: MIT](https://git.sr.ht/~sthagen/mapology/tree/default/item/LICENSE)
+[License: MIT](https://git.sr.ht/~sthagen/mapology/tree/default/item/LICENSE) |
+[Country of origin: Switzerland](https://git.sr.ht/~sthagen/mapology/tree/default/item/COUNTRY-OF-ORIGIN) |
+[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/mapology/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 
 Third party dependencies are documented in the folder [third-party](third-party/README.md).
 
