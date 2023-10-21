@@ -3,6 +3,8 @@
 2023.10.21
 :    * Changed repository structure and added about, security, and support info files
 
+## 2022
+
 2022.8.7
 :    * Bumped dependencies for development and test
 * Moved from no docs to mkdocs
