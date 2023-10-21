@@ -1,0 +1,14 @@
+name: mapology
+description: Simple python filters generating leaflet driven apps.
+license_spdx: MIT
+version: 2023.10.21
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/mapology
+news_url: https://libraries.io/pypi/mapology/versions.atom
+date: 2023-10-21
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/mapology?number=2023.10.21
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/mapology
+vcs_branch: default
+
