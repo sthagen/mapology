@@ -1,0 +1,17 @@
+[book]
+authors = ["Stefan Hagen"]
+language = "en"
+multilingual = false
+src = "."
+title = "Mapology"
+
+[preprocessor.embed]
+
+[build]
+builddir = "book"
+
+[output.html]
+mathjax-support = true
+site-url = "/docs/mapology"
+git-repository-url = "https://git.sr.ht/~sthagen/mapology"
+
