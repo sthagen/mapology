@@ -2,18 +2,15 @@
 
 Simple python filters generating leaflet driven apps.
 
-[License: MIT](https://git.sr.ht/~sthagen/mapology/tree/default/item/LICENSE) |
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/mapology/tree/default/item/COUNTRY-OF-ORIGIN) |
-[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/mapology/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/mapology/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/mapology/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/mapology/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-Third party dependencies are documented in the folder [third-party](third-party/README.md).
-
-[![version](https://img.shields.io/pypi/v/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
-[![downloads](https://static.pepy.tech/badge/mapology/month)](https://pepy.tech/project/mapology)
-[![wheel](https://img.shields.io/pypi/wheel/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
-[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/mapology.svg?style=flat)](https://git.sr.ht/~sthagen/mapology/log)
+[![Version](https://img.shields.io/pypi/v/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
+[![Downloads](https://static.pepy.tech/badge/mapology/month)](https://pepy.tech/project/mapology)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/mapology.svg?style=flat)](https://git.sr.ht/~sthagen/mapology/log)
 
 ## Bug Tracker
 
