@@ -10,7 +10,7 @@ Simple python filters generating leaflet driven apps.
 [![Version](https://img.shields.io/pypi/v/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
 [![Downloads](https://static.pepy.tech/badge/mapology/month)](https://pepy.tech/project/mapology)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/mapology.svg?style=flat)](https://pypi.python.org/pypi/mapology/)
-[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/mapology.svg?style=flat)](https://git.sr.ht/~sthagen/mapology/log)
+[![Maintenance Status](docs/badges/downloads-per-month.svg)](https://git.sr.ht/~sthagen/mapology/log)
 
 ## Bug Tracker
 
