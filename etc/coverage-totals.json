@@ -1,0 +1,18 @@
+{
+  "mapology": {
+    "version": "7.3.2",
+    "timestamp": "2023-12-02T15:26:24.825709",
+    "branch_coverage": true,
+    "show_contexts": true,
+    "covered_lines": 346,
+    "num_statements": 909,
+    "percent_covered": 31.04872006606111,
+    "percent_covered_display": "31.05",
+    "missing_lines": 563,
+    "excluded_lines": 0,
+    "num_branches": 302,
+    "num_partial_branches": 14,
+    "covered_branches": 30,
+    "missing_branches": 272
+  }
+}
