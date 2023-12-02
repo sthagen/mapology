@@ -1,7 +1,7 @@
 {
   "mapology": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:26:24.825709",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:24:59 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 346,
@@ -13,6 +13,29 @@
     "num_branches": 302,
     "num_partial_branches": 14,
     "covered_branches": 30,
-    "missing_branches": 272
+    "missing_branches": 272,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 10,
+    "files": [
+      "mapology/__init__.py",
+      "mapology/cli.py",
+      "mapology/countries_razor.py",
+      "mapology/country.py",
+      "mapology/db.py",
+      "mapology/hull.py",
+      "mapology/icao.py",
+      "mapology/indexer.py",
+      "mapology/prefixes.py",
+      "mapology/template_loader.py"
+    ],
+    "blake3": "33612e1cfb2976ab50a688216ecb88ab0fc55860f6484e1491bb1551bc6b1a06",
+    "blake2": "ac8c153ac9bd080c4b2d5f591ca289df0f13c6801f3a4f9879d5c474ac4f1d3aac699e3d20439d93cb6fc2fbe1f3e1b60fbaddb8c1eb9be3161f609475021787",
+    "sha512": "fca94a1dd90fc404eeb74a9571377114010c5b3dcc730adfe08d34222224a22177cffb39aa6d27946a14deb9c35903402163d294c994c1fda137316bfc37c1c0",
+    "sha384": "5d62c3e9d1a012d5cc2f28d46053d5f68085a3bf9ea93c760f2625bb1ec0d6372d12369be19bd0fe29d4e720279ff6a9",
+    "sha256": "6a94b99834bc0ab7f5e2f8828cf7e9eeedf351c440d4bec2042a6eaabcae1745",
+    "sha1": "4221f315244d24879f50a820815415ddf60b2968",
+    "md5": "9863d5e331abc83dba9d350fdc3f7f65",
+    "python_version": "3.10.12",
+    "entropy": 5.081232
   }
 }
