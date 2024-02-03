@@ -1,4 +1,5 @@
 """Occam's razor for countries data set of the natural earth project."""
+
 import copy
 import json
 import logging

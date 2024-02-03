@@ -1,4 +1,5 @@
 """Render the prefix page apps from the prefix abd prefix table stores."""
+
 import collections
 import copy
 import datetime as dti

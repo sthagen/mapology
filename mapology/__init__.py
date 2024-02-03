@@ -1,4 +1,5 @@
 """Simple python filters generating leaflet driven apps."""
+
 import logging
 import os
 import pathlib

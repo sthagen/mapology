@@ -1,4 +1,5 @@
 """Database for the complete tree."""
+
 import copy
 import json
 import pathlib

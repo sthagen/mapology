@@ -1,4 +1,5 @@
 """Determine hull curves from point sets."""
+
 import copy
 import functools
 from typing import no_type_check

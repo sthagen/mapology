@@ -1,4 +1,5 @@
 """Loader function for templates."""
+
 import importlib.resources
 import pathlib
 from typing import List, Union
