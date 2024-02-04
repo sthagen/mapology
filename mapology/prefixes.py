@@ -16,7 +16,7 @@ import mapology.hull as hull
 import mapology.template_loader as template
 from mapology import BASE_URL, DEBUG, ENCODING, FOOTER_HTML, FS_PREFIX_PATH, LIB_PATH, PATH_NAV, country_blurb, log
 
-THIS_YY_INT = int(dti.datetime.utcnow().strftime('%y'))
+THIS_YY_INT = int(dti.datetime.now(dti.UTC).strftime('%y'))
 
 HTML_TEMPLATE = os.getenv('GEO_PREFIX_HTML_TEMPLATE', '')
 HTML_TEMPLATE_IS_EXTERNAL = bool(HTML_TEMPLATE)

@@ -37,7 +37,7 @@ FeatureDict = Dict[str, Collection[str]]
 PHeaderDict = Dict[str, Collection[str]]
 PFeatureDict = Dict[str, Collection[str]]
 
-THIS_YY_INT = int(dti.datetime.utcnow().strftime('%y'))
+THIS_YY_INT = int(dti.datetime.now(dti.UTC).strftime('%y'))
 
 HTML_TEMPLATE = os.getenv('GEO_PAGE_HTML_TEMPLATE', '')
 HTML_TEMPLATE_IS_EXTERNAL = bool(HTML_TEMPLATE)
