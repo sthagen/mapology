@@ -20,6 +20,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "",
     "keywords": "data-quality,developer-tools,gis,mapping-tools",
     "license": "",
@@ -36,6 +37,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/mapology",
       "Test-Coverage": "https://codes.dilettant.life/coverage/mapology"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/mapology/2023.10.21/",
     "requires_dist": [
       "black ; extra == 'dev'",
