@@ -24,6 +24,8 @@
     "home_page": "",
     "keywords": "data-quality,developer-tools,gis,mapping-tools",
     "license": "",
+    "license_expression": null,
+    "license_files": null,
     "maintainer": "",
     "maintainer_email": "Stefan Hagen <stefan@hagen.link>",
     "name": "mapology",
